@@ -41,7 +41,7 @@ if(isset($_SESSION["u"])){
     $amount = ((int)$product_data["price"] * (int)$qty) + (int)$delivery;
 
     $merchant_id = "1221047";
-    $merchant_secret = "Mjk1MDA1NzgxMTE2OTY5NTA5NzkyMDgwMDkyMTg5MTkyODE3NjI1OQ==";
+    $merchant_secret = "";
     $currency = "LKR";
 
     $hash = strtoupper(
